@@ -1,0 +1,29 @@
+@import './scss/Sidebar.scss';
+@import './scss/Second.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    // font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+
+  }
+  
+  main{
+    flex: 1 0 auto;
+  }
+  
+  .card-pricing.popular {
+    z-index: 1;
+    border: 3px solid #007bff;
+}
+.card-pricing .list-unstyled li {
+    padding: .5rem 0;
+    color: #6c757d;
+}
+
+.gradianColor{
+  background-image: linear-gradient(30deg, #0048bd, #44a7fd);
+}
